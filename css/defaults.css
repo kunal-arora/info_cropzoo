@@ -1,0 +1,23 @@
+.no-padding {
+	padding: 0;
+}
+.text-center {
+	text-align: center;
+}
+.mb-30 {
+	margin-bottom: 30px;
+}
+.position-relative {
+	position: relative !important;
+}
+.home-container .mdl-button--accent.mdl-button--accent.mdl-button--raised, .home-container .mdl-button--accent.mdl-button--accent.mdl-button--fab, .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab:active {
+	background-color: #fafafa;
+	color: #070707;
+	padding: 2px 25px;
+}
+.main-logo-head {
+	background-color: #fff;
+}
+.grey-nav {
+	background-color: #E3E3E3;
+}
