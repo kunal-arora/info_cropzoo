@@ -23,6 +23,8 @@
 			endif;	
 			// special js includes 
 
+			break;
+
 		endif;
 	
 	endforeach;
