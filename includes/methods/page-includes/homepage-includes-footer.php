@@ -1,5 +1,3 @@
-
-
 <!-- SlidesJS Required: Link to jquery.slides.js -->
 <script src="js/jquery.slides.min.js"></script>
 <!-- End SlidesJS Required -->
@@ -7,7 +5,7 @@
 <script>
 $(function() {
 	
-	var windowHeight = $(document).height();
+	/*var windowHeight = $(document).height();
 
 	var navigationHeaderHeight = $('#js-navigation').height();
 
@@ -19,7 +17,7 @@ $(function() {
 
 	console.log(windowHeight);
 	console.log(headerHeight);
-	console.log(sliderHeight);
+	console.log(sliderHeight);*/
 
 	$('#slides').slidesjs({
 		width: 940,

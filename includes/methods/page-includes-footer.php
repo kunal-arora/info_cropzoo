@@ -7,7 +7,13 @@
 ?>
 			
 <?php	    
-			include 'page-includes/'.$value->footer_includes.'.php';	
+			// special js includes
+			if ( ($value->footer_includes !== "" ) ) :
+
+				include 'page-includes/'.$value->footer_includes.'.php';
+
+			endif;
+			// special js includes
 
 		endif;
 	

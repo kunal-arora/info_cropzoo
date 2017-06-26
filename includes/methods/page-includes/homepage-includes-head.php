@@ -1,7 +1,3 @@
-  <!-- SlidesJS Required: Link to jQuery -->
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <!-- End SlidesJS Required -->
-
   <!-- CSS for slidesjs.com example -->
   <link rel="stylesheet" href="css/slides.css">
   <!-- End CSS for slidesjs.com example -->
