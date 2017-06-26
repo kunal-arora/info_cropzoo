@@ -1,7 +1,3 @@
-  <!-- CSS for slidesjs.com example -->
-  <link rel="stylesheet" href="css/slides.css">
-  <!-- End CSS for slidesjs.com example -->
-
 <style>
  #slides {
       display: none
