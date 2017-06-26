@@ -5,13 +5,13 @@ $_pageData = json_encode(array(
  	"crop" => array(
         "title" => "Cropzoo - Farms to Fridges",
         "description" => "xxxxxx",
-        "head_includes" => "homepage-includes-head",
+        "head_includes" => "",
         "footer_includes" => "homepage-includes-footer"
  	),
  	"zoo" => array(
         "title" => "Cropzoo - Farms to Fridges",
         "description" => "zoo",
-        "head_includes" => "homepage-includes-head",
+        "head_includes" => "",
         "footer_includes" => "homepage-includes-footer"
  	)
 ));
