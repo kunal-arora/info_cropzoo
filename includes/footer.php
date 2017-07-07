@@ -1,6 +1,12 @@
 <!-- jquery -->
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <!-- jquery -->
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
 
 <!-- scripts and other url based includes -->
 <?php
@@ -8,8 +14,8 @@
 ?>
 <!-- scripts and other url based includes -->
 
-<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
+</div>
+<!-- /main container fluid -->
 </body>
 
 </html>

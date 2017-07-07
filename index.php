@@ -1,6 +1,11 @@
 <?php
     require 'includes/head.php';
 ?>  
+<style type="text/css">
+    html, body {
+        overflow-y: hidden;
+    }
+</style>
 <div class="home-container">
     <img src="images/cropzoo-flat-logo.svg" class="flat-logo-home">
     <div class="mdl-cell mdl-cell--6-col left-side">

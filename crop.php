@@ -1,31 +1,36 @@
 <?php
     require 'includes/head.php';
-?>  
 
-<!-- crop-page-container -->
-<div class="crop-page-container">
-
-<?php 
     include 'includes/header.php';
 ?>
 
-<!-- slider -->
-    <section class="">
-        <div id="container">
-            <div id="slides">
-                <img src="images/banners/banner-1.jpg" alt="">
-                <img src="images/banners/banner-1.jpg" alt="">
-                <img src="images/banners/banner-1.jpg" alt="">
-                <img src="images/banners/banner-1.jpg" alt="">
-                <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="material-icons">keyboard_arrow_left</i></a>
-                <a href="#" class="slidesjs-next slidesjs-navigation"><i class="material-icons">keyboard_arrow_right</i></a>
-            </div>
-        </div>
-    </section>
-<!-- slider -->
+    <!-- crop-index-page-container -->
+    <div class="crop-index-page-container">
+            
+        <!-- slider -->
 
-</div>
-<!-- /crop-page-container -->
+        <div class="slick-slider js-slick">
+
+            <div class="text-center photo" style="background-image: url('images/banners/banner-1.jpg');">
+            </div>
+            <div class="text-center photo" style="background-image: url('images/banners/banner-1.jpg');">
+            </div>
+
+        </div>
+        <!-- slider -->
+
+            <!-- about section -->
+            <section class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12 text-center">
+                        <h1 class="section-headings">ABOUT</h1>
+                    </div>
+                </div>
+            </section>
+            <!-- about section -->
+        
+    </div>
+    <!-- /crop-index-page-container -->
 
 <?php
     include 'includes/footer.php';

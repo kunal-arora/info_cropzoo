@@ -16,11 +16,11 @@
 			<!-- meta tags for headers -->
 <?php	    
 			// special js includes 
-			if ( $value->head_includes !== "" ) :
+			// if ( $value->head_includes !== "" ) :
 
-				include 'page-includes/'.$value->head_includes.'.php';
+			// 	include 'page-includes/'.$value->head_includes.'.php';
 
-			endif;	
+			// endif;	
 			// special js includes 
 
 			break;
