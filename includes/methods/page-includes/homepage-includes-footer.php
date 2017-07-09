@@ -2,6 +2,32 @@
 <script src="js/vendor/slick.min.js"></script>
 <!-- End SlidesJS Required -->
 
+<!-- scroll animations -->
+<!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> -->
+<!-- <script type="text/javascript" src="js/vendor/wow.js"></script> -->
+  <script>
+//   $(function(){
+// new WOW().init(); 
+
+// });
+    // wow = new WOW(
+    //   {
+    //     animateClass: 'animated',
+    //     offset:       100,
+    //     callback:     function(box) {
+    //       console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    //     }
+    //   }
+    // );
+    // wow.init();
+    // document.getElementById('moar').onclick = function() {
+    //   var section = document.createElement('section');
+    //   section.className = 'section--purple wow fadeInDown';
+    //   this.parentNode.insertBefore(section, this);
+    // };
+  </script>
+<!-- scroll animations -->
+
 <script>
 	
 	// var windowHeight = $(document).height();
@@ -30,6 +56,9 @@ $(document).ready(function () {
 		speed: 1000
 	});
 
+
 });
 
 </script>
+
+
