@@ -64,11 +64,11 @@
         <!-- about section -->
 
         <section class="container-fluid hwdi-section section">
-            <div class="row hwdi-heading">
+            <div class="hwdi-heading">
                 <div class="col-xs-12 col-sm-12 text-center hqdi-bg-outer"
                      data-bottom-top='background-position: 50% 0%' 
                      data-top-bottom='background-position: 50% -90%'>
-                    <h1 class="section-headings">How are we doing it ?</h1>
+                    <h1 class="section-headings">What do we do ?</h1>
                 </div>
             </div>
         </section>
