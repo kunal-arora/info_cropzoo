@@ -41,7 +41,7 @@
     <!-- Latest compiled and minified CSS bootstrap -->
 
     <!-- google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <!-- google fonts -->
 
     <!-- google icons -->

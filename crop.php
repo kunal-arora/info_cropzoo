@@ -35,7 +35,7 @@
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                     </p>                    
 
-                    <img data-280="opacity: .7;" data-500="opacity: 1;" src="images/assets/crop-index-page/about-image.jpg" class="img-responsive image-center"/>
+                    <img data-280="opacity: .88;" data-500="opacity: 1;" src="images/assets/crop-index-page/about-image.jpg" class="img-responsive image-center"/>
 
                 </div>
 
@@ -64,6 +64,7 @@
         <!-- about section -->
 
         <section class="container-fluid hwdi-section section">
+
             <div class="hwdi-heading">
                 <div class="col-xs-12 col-sm-12 text-center hqdi-bg-outer"
                      data-bottom-top='background-position: 50% 0%' 
@@ -71,6 +72,38 @@
                     <h1 class="section-headings">What do we do ?</h1>
                 </div>
             </div>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 margin-sm-30">
+                        <p class="text-center">
+                            There has been concern in recent years regarding the efficiency of marketing of fruits and vegetables and that is leading to high and fluctuating consumer prices and only a small share of the consumer rupee reaching the farmer. So we think that if there are few or no middleman, the farmers share could be much higher. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 margin-sm-30 current-scene text-center">
+                        <img src="images/assets/crop-index-page/current-scene.svg" class="" />
+                        <h2>Current Value Supply chain</h2>
+                        <div class="small-line-g"></div>
+                    </div>
+                </div>
+
+
+                <div class="row our-scene">
+                    <div class="col-sm-4 col-xs-12 no-padding">
+                        <h2>CropZoo Value Supply chain</h2>
+                        <p>The producer and the consumer often get a poor deal and the middlemen control the market. This is what CropZoo is providing, removing all the middleman and creating a win-win situation for both the producers and the consumers.</p>
+                    </div>
+                    <div class="col-sm-8 col-xs-12">
+                        <img src="images/assets/crop-index-page/our-scene.svg" class="" />
+                    </div>
+                </div>
+
+            </div>
+
         </section>
 
     </div>
