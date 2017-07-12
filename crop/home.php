@@ -18,7 +18,7 @@
         <!-- slider -->
 
         <!-- about section -->
-        <section class="container-fluid about-section section">
+        <section class="container-fluid about-section section first-section-shadow">
 
 
             <div class="row">
@@ -63,7 +63,7 @@
         </section>
         <!-- about section -->
 
-        <section class="container-fluid hwdi-section section">
+        <section class="container-fluid section-rl-p-0 hwdi-section section">
 
             <div class="hwdi-heading">
                 <div class="col-xs-12 col-sm-12 text-center hqdi-bg-outer"

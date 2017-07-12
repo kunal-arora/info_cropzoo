@@ -9,6 +9,13 @@ $_pageData = json_encode(array(
         "body_class" => "crop-index",
         "footer_includes" => "homepage-includes-footer"
  	),
+        "about" => array(
+        "title" => "Cropzoo - Farms to Fridges",
+        "description" => "xxxxxx",
+        "head_includes" => "",
+        "body_class" => "crop-about",
+        "footer_includes" => ""
+        ),
  	"zoo" => array(
         "title" => "Cropzoo - Farms to Fridges",
         "description" => "zoo",
