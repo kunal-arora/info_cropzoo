@@ -1,5 +1,5 @@
 <!-- SlidesJS Required: Link to jquery.slides.js -->
-<script src="js/vendor/slick.min.js"></script>
+<script src="../js/vendor/slick.min.js"></script>
 <!-- End SlidesJS Required -->
 
 <!-- scroll animations -->

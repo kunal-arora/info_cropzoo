@@ -53,7 +53,7 @@
     ?>
 
     <!-- custom styles -->
-    <link rel="stylesheet" href="css/dist/styles.min.css">
+    <link rel="stylesheet" href="../css/dist/styles.min.css">
     <!-- custom styles -->
 
   </head>

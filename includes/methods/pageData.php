@@ -2,7 +2,7 @@
 
 $_pageData = json_encode(array(
 
- 	"crop" => array(
+ 	"home" => array(
         "title" => "Cropzoo - Farms to Fridges",
         "description" => "xxxxxx",
         "head_includes" => "",
