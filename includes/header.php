@@ -28,9 +28,9 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-center">
-          <li class="active"><a href="home.php">HOME <span class="sr-only">(current)</span></a></li>
-          <li><a href="about.php">ABOUT</a></li>
+        <ul id="js-nav" class="nav navbar-nav navbar-center">
+          <li class="<?php if ($base_url == "/home.php") {echo "active"; } ?>"><a href="home.php">HOME <span class="sr-only">(current)</span></a></li>
+          <li class="<?php if ($base_url == "/about.php") {echo "active"; } ?>"><a href="about.php">ABOUT</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICES <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -40,10 +40,10 @@
               <li role="separator" class="divider"></li>
               <li><a href="#">Separated link</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
+              <li class=""><a href="#">One more separated link</a></li>
             </ul>
           </li>
-          <li><a href="#">CONTACT US</a></li>
+          <li class="<?php if ($base_url == "/contact.php") {echo "active"; } ?>"><a href="contact.php">CONTACT US</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

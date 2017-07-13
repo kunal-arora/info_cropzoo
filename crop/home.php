@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 margin-sm-30 current-scene text-center">
+                    <div class="col-xs-12 col-sm-12 margin-sm-60 current-scene text-center">
                         <img src="../images/assets/crop-index-page/current-scene.svg" class="" />
                         <h2>Current Value Supply chain</h2>
                         <div class="small-line-g"></div>

@@ -16,6 +16,7 @@
 <!-- scripts and other url based includes -->
 
 <script type="text/javascript">
+
 $(function(){
 	skrollr.init({
 		forceHeight: false,
@@ -25,6 +26,7 @@ $(function(){
 		}
 	});
 });
+
 </script>
 
 </div>
