@@ -96,7 +96,7 @@
                     <div class="col-sm-4 col-xs-12 no-padding">
                         <h2>CropZoo Value Supply chain</h2>
                         <p>The producer and the consumer often get a poor deal and the middlemen control the market. This is what CropZoo is providing, removing all the middleman and creating a win-win situation for both the producers and the consumers.</p>
-                        <a class="read-more-link">
+                        <a href="about.php" class="read-more-link">
                             <img src="../images/assets/crop-index-page/arrorw.svg" class="" />
                             READ MORE
                         </a>
