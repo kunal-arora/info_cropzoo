@@ -83,7 +83,7 @@
         </p>
 
         <!-- Accent-colored raised button with ripple -->
-        <a href="" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent explore-btn">
+        <a href="zoo/home.php" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent explore-btn">
         EXPLORE
         </a>
 
