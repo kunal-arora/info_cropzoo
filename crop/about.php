@@ -7,9 +7,9 @@
     <!-- crop-about-page-container -->
     <div class="crop-about-page-container">
 
-    	<section class="continer-fluid page-banner">
+    	<section class="container-fluid page-banner">
     		
-            <div class="row">
+            <div class="row no-margin">
                 <div class="col-xs-12 col-sm-12 banner-image" 
                      data-bottom-top='background-position: 50% 0%' 
                      data-top-bottom='background-position: 50% 50%'>

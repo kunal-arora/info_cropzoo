@@ -5,7 +5,7 @@
 ?>
         
     <!-- crop-index-page-container -->
-    <div class="crop-index-page-container">
+    <div class="zoo-index-page-container">
             
         <!-- slider -->
         <div class="slick-slider js-slick">

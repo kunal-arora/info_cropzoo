@@ -5,9 +5,9 @@
 ?>
        
     <!-- crop-about-page-container -->
-    <div class="crop-about-page-container">
+    <div class="zoo-about-page-container">
 
-    	<section class="continer-fluid page-banner">
+    	<section class="container-fluid page-banner">
     		
             <div class="row">
                 <div class="col-xs-12 col-sm-12 banner-image" 
