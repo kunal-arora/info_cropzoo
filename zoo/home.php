@@ -10,9 +10,35 @@
         <!-- slider -->
         <div class="slick-slider js-slick">
 
-            <div class="text-center photo" style="background-image: url('../images/banners/banner-1.jpg');"></div>
+            <div class="text-center photo" style="background-image: url('../images/banners/banner-1.jpg');">
+                <div class="banner-text-container">
+                    <div class="container flex-start">
+                        <h1 class="banner-text text-left">
+                            Farms to <br/> Fridges
+                        </h1>
+                    </div>
+                </div>
+            </div>
 
-            <div class="text-center photo" style="background-image: url('../images/banners/banner-1.jpg');"></div>
+            <div class="text-center photo" style="background-image: url('../images/banners/banner-2.jpg');">
+                <div class="banner-text-container">
+                    <div class="container flex-start">
+                        <h1 class="banner-text text-left">
+                            Quality you deserve <br/> Savings you expect
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center photo" style="background-image: url('../images/banners/banner-3.jpg');">
+                <div class="banner-text-container">
+                    <div class="container flex-start">
+                        <h1 class="banner-text text-left">
+                            We Farm <br/> you eat
+                        </h1>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <!-- slider -->
@@ -32,7 +58,7 @@
                 <div class="col-sm-12 col-xs-12">
 
                     <p class="text-center">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                        We can help you eat more fruits & vegetables! <br/> We all know fruits and vegetables add important nutrition to our diets. But how much should we eat? And how can we make this nutrition stuff easier, tastier and more enjoyable? To answer these questions, CropZoo offers simple ways to add more fruits & veggies to your day.
                     </p>                    
 
                     <img data-280="opacity: .88;" data-500="opacity: 1;" src="../images/assets/crop-index-page/about-image.jpg" class="img-responsive image-center"/>
