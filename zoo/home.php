@@ -152,15 +152,15 @@
                 <div class="col-xs-12 col-sm-12">
                     <div class="sevices-container clearfix">
                         <div class="services-box clearfix">
-                            <img src="../images/assets/zoo-index-page/ecomm.svg">
+                            <img src="../images/assets/zoo-index-page/ecomm.svg" class="ecom-icon">
                             <h2>Our e-commerce platform</h2>
                             <p>We provide the best B2B & B2C solutions for FnV products.</p>
-                            <a href="ecmommerce.php" class="btn btn-services">Read More</a>
+                            <a href="ecommerce.php" class="btn btn-services">Read More</a>
                         </div>
                         <div class="services-box clearfix">
                             <img src="../images/assets/zoo-index-page/retail.svg">
                             <h2>Our exclusive FnV retail stores</h2>
-                            <p>Direct from farmers to your neighbourhood</p>
+                            <p>Direct from farmers to your neighbourhood.</p>
                             <a href="retail.php" class="btn btn-services">Read More</a>                            
                         </div>
                     </div>

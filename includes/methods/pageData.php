@@ -22,7 +22,14 @@ $_pageData = json_encode(array(
         "head_includes" => "",
         "body_class" => "zoo-index",
         "footer_includes" => "homepage-includes-footer"
- 	)
+ 	),
+        "ecommerce" => array(
+        "title" => "Cropzoo - Farms to Fridges",
+        "description" => "zoo",
+        "head_includes" => "",
+        "body_class" => "zoo-ecommerce",
+        "footer_includes" => "homepage-includes-footer"
+        )
 ));
 
 $page = json_decode($_pageData);

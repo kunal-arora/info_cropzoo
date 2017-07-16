@@ -15,7 +15,7 @@
                      data-top-bottom='background-position: 50% 50%'>
                     
                     <div class="container">
-                        <h1>About us</h1>
+                        <h1></h1>
                     </div>
                     
                 </div>
