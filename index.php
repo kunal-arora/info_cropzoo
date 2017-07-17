@@ -29,7 +29,7 @@
     <!--
     <link rel="canonical" href="http://www.example.com/">
     -->
-
+    <?php  include 'includes/methods/pageData.php'; ?>
     <!-- Latest compiled and minified CSS bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Latest compiled and minified CSS bootstrap -->
@@ -43,7 +43,7 @@
     <!-- google icons -->
 
     <!-- custom styles -->
-    <link rel="stylesheet" href="css/dist/styles.min.css">
+    <link rel="stylesheet" href="css/dist/styles.min.css?v=<?php echo $version; ?>">
     <!-- custom styles -->
 
   </head>

@@ -53,11 +53,11 @@
     ?>
 
     <!-- custom styles -->
-    <link rel="stylesheet" href="../css/dist/styles.min.css">
+    <link rel="stylesheet" href="../css/dist/styles.min.css?v=<?php echo $version; ?>">
     <!-- custom styles -->
 
   </head>
-  <body id="skrollr-body" class="cz-body <?php include 'methods/body-class.php'; ?>">
+  <body id="skrollr-body" class="cz-body <?php //include 'methods/body-class.php'; ?>">
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->

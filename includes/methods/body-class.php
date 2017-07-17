@@ -1,5 +1,5 @@
 <?php	
-	foreach ($page as $key => $value) :		
+/*	foreach ($page as $key => $value) :		
 		if (strpos($base_url, $key) !== false) : 
     
 			// 
@@ -15,5 +15,5 @@
 		endif;
 	
 	endforeach;
-
+*/
 ?>
