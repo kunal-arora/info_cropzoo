@@ -5,7 +5,7 @@
 ?>
        
     <!-- crop-about-page-container -->
-    <div class="zoo-about-page-container">
+    <div class="zoo-retail-page-container">
 
     	<section class="container-fluid page-banner">
     		
@@ -15,7 +15,7 @@
                      data-top-bottom='background-position: 50% 50%'>
                     
                     <div class="container">
-                        <h1></h1>
+                        <h1>Our retail stores</h1>
                     </div>
                     
                 </div>

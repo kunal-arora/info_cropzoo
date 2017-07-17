@@ -151,13 +151,13 @@
             <div class="container">
                 <div class="col-xs-12 col-sm-12">
                     <div class="sevices-container clearfix">
-                        <div class="services-box clearfix">
+                        <div data-1765="box-shadow:0 2px 10px 0 rgba(0,0,0,0.0), 0 0 0px 0 rgba(0,0,0,0.0);" data-2380="box-shadow:0 2px 10px 0 rgba(0,0,0,0.1), 0 0 0px 0 rgba(0,0,0,0.08);" class="services-box clearfix">
                             <img src="../images/assets/zoo-index-page/ecomm.svg" class="ecom-icon">
                             <h2>Our e-commerce platform</h2>
                             <p>We provide the best B2B & B2C solutions for FnV products.</p>
                             <a href="ecommerce.php" class="btn btn-services">Read More</a>
                         </div>
-                        <div class="services-box clearfix">
+                        <div data-1765="box-shadow:0 2px 10px 0 rgba(0,0,0,0.0), 0 0 0px 0 rgba(0,0,0,0.0);" data-2380="box-shadow:0 2px 10px 0 rgba(0,0,0,0.1), 0 0 0px 0 rgba(0,0,0,0.08);" class="services-box clearfix">
                             <img src="../images/assets/zoo-index-page/retail.svg">
                             <h2>Our exclusive FnV retail stores</h2>
                             <p>Direct from farmers to your neighbourhood.</p>
