@@ -8,7 +8,9 @@
   <div class="container">
     <div id="js-logo-header" class="row main-logo-head">
       <div class="col-sm-12 col-xs-12">
-        <img src="../images/logo-flat-black.svg" class="crop-logo">
+        <a href="../index.php">
+          <img src="../images/logo-flat-black.svg" class="crop-logo">
+        </a>
       </div>
     </div>
   </div>

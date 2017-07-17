@@ -35,7 +35,7 @@
     <!-- Latest compiled and minified CSS bootstrap -->
 
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
     <!-- google fonts -->
 
     <!-- google icons -->
@@ -60,30 +60,33 @@
         overflow-y: hidden;
     }
 </style>
-
-
+<?php include 'burger-menu.php'; ?>
 <div class="home-container">
     <img src="images/cropzoo-flat-logo.svg" class="flat-logo-home">
-    <div class="mdl-cell mdl-cell--6-col left-side">
+    <img src="images/assets/index/trac.svg" class="trac-image">
+    <div class="flex-center">
+        <h1>CropZoo</h1>
+    </div>
+    <div class="col-xs-12 col-sm-6 left-side">
 
         <p class="text-center mb-30">
         We at CropZoo are committed at providing service to the farmers of the India which has never been provided before in a manner where they get the best price for their produce and in that process we motivate every  farmer to grow more and earn more . 
         </p>
 
         <!-- Accent-colored raised button with ripple -->
-        <a href="crop/home.php" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent explore-btn">
+        <a href="crop/home.php" class="btn btn-white">
         EXPLORE
         </a>
 
     </div>
-    <div class="mdl-cell mdl-cell--6-col right-side">
+    <div class="col-xs-12 col-sm-6 right-side">
 
         <p class="text-center mb-30">
-        We at CropZoo are committed at providing service to the farmers of the India which has never been provided before in a manner where they get the best price for their produce and in that process we motivate every  farmer to grow more and earn more . 
+        Committed to deliver fresh quality produce at the competitive prices using the value chain model and our customers can enjoy the convenience of picking and choosing various varieties of fruits & vegetables at their doorstep.
         </p>
 
         <!-- Accent-colored raised button with ripple -->
-        <a href="zoo/home.php" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent explore-btn">
+        <a href="zoo/home.php" class="btn btn-green">
         EXPLORE
         </a>
 
@@ -116,6 +119,10 @@ $(function(){
             console.log(data.curTop);
         }
     });
+});
+$('#toggle').click(function() {
+    $(this).toggleClass('active');
+    $('#overlay').toggleClass('open');
 });
 </script>
 

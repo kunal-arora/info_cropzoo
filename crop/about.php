@@ -1,7 +1,7 @@
 <?php
     require '../includes/head.php';
 
-    include '../includes/header.php';
+    include '../includes/header-crop.php';
 ?>
        
     <!-- crop-about-page-container -->

@@ -45,7 +45,8 @@
     <!-- google fonts -->
 
     <!-- google icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <link rel="stylesheet" href="../css/vendor/font-awesome.min.css">
     <!-- google icons -->
 
     <?php
@@ -61,7 +62,7 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
+    <?php //include '../burger-menu.php'; ?>
     <!-- main container fluid -->
     <div class="main-container">
     

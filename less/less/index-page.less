@@ -4,6 +4,7 @@
     top: 5px;
     left: 50px;
     max-width: 175px;
+    z-index: 9;
 }
 .home-container {
     .left-side {
@@ -21,6 +22,8 @@
         p {
             padding: 0 100px;
             font-size: 16px;
+            position: relative;
+            z-index: 99;
         }
     }
     .right-side {
@@ -38,6 +41,33 @@
         p {
             padding: 0 100px;
             font-size: 16px;
+            position: relative;
+            z-index: 99;
         }
+    }
+    .btn {
+        padding: 12px 40px;
+    }
+    .flex-center {
+        top: 0;
+        bottom: 0;
+        right: 66px;
+        left: 0;
+        position: absolute;
+        z-index: 1;
+            h1 {
+                font-size: 200px;
+                letter-spacing: 60px;
+                font-weight: 100;
+                opacity: .1;
+            }
+    }
+    .trac-image {
+        position: fixed;
+        bottom: 5px;
+        left: 50%;
+        max-width: 175px;
+        z-index: 9;
+        margin-left: -88px;
     }
 }

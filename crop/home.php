@@ -1,7 +1,7 @@
 <?php
     require '../includes/head.php';
 
-    include '../includes/header.php';
+    include '../includes/header-crop.php';
 ?>
         
     <!-- crop-index-page-container -->
@@ -10,9 +10,35 @@
         <!-- slider -->
         <div class="slick-slider js-slick">
 
-            <div class="text-center photo" style="background-image: url('../images/banners/banner-1.jpg');"></div>
+            <div class="text-center photo" style="background-image: url('../images/banners/crop/banner-1.jpg');">
+                <div class="banner-text-container">
+                    <div class="container flex-start">
+                        <h1 class="banner-text text-left">
+                            Farms to <br/> Fridges
+                        </h1>
+                    </div>
+                </div>
+            </div>
 
-            <div class="text-center photo" style="background-image: url('../images/banners/banner-1.jpg');"></div>
+            <div class="text-center photo" style="background-image: url('../images/banners/crop/banner-2.jpg');">
+                <div class="banner-text-container">
+                    <div class="container flex-start">
+                        <h1 class="banner-text text-left">
+                            Quality you deserve <br/> Savings you expect
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center photo" style="background-image: url('../images/banners/crop/banner-3.jpg');">
+                <div class="banner-text-container">
+                    <div class="container flex-start">
+                        <h1 class="banner-text text-left">
+                            We Farm <br/> you eat
+                        </h1>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <!-- slider -->
@@ -32,14 +58,14 @@
                 <div class="col-sm-12 col-xs-12">
 
                     <p class="text-center">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                        CropZoo is a food solutions & sustainable agriculture company. We have made a commitment to produce more, produce good, conserve more and improve farmers lives. We are focused on empowering farmers – large and small – to produce more from their land so that they can earn more and invest in increasing productivity of their land. We at CropZoo are committed at providing services to the farmers of India in a manner where they get the best price for their produce and in that process we motivate every farmer to grow more and earn more.
                     </p>                    
 
-                    <img data-280="opacity: .88;" data-500="opacity: 1;" src="../images/assets/crop-index-page/about-image.jpg" class="img-responsive image-center"/>
+                    <img data-280="opacity: .88;" data-500="opacity: 1;" src="../images/assets/crop-index-page/about-image.svg" class="img-responsive image-center"/>
 
                 </div>
 
-                <div class="leaf-1-container"
+                <!-- <div class="leaf-1-container"
                      data-70="opacity: 0;margin-left: -200px;" 
                      data-270="opacity: 1;margin-left: 0px;">
                     <img src="../images/assets/crop-index-page/home-leaf-1.jpg" class="img-responsive"/>
@@ -48,14 +74,14 @@
                 <div class="leaf-2-container"
                      data-100="opacity: 0;margin-right: -250px;" 
                      data-350="opacity: 1;margin-right: 0px;">
-                    <img src="../images/assets/crop-index-page/home-leaf-2.jpg" class="img-responsive"/>
+                    <img src="../images/assets/crop-index-page/rake.svg" class="img-responsive"/>
                 </div>
 
                 <div class="leaf-3-container"
                      data-150="opacity: 0;margin-left: -450px;" 
                      data-450="opacity: 1;margin-left: 0px;">
                     <img src="../images/assets/crop-index-page/home-leaf-3.jpg" class="img-responsive"/>
-                </div>
+                </div> -->
                             
             </div>
             

@@ -2,7 +2,7 @@
     <footer class="text-center footer-container">
         <div class="footer-above">
             <div class="container">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
                         <p>3481 Melrose Place
@@ -30,16 +30,16 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <p><a href="http://startbootstrap.com"></a>.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; <?php echo date("Y"); ?>
                     </div>
                 </div>
             </div>
@@ -84,6 +84,11 @@ $(document).ready(function () {
 
 	$('body').css("height", height);
 
+});
+
+$('#toggle').click(function() {
+    $(this).toggleClass('active');
+    $('#overlay').toggleClass('open');
 });
 
 </script>
