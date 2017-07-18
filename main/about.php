@@ -55,19 +55,19 @@
                     <div class="col-sm-4 col-xs-12 text-center">
                         <img src="../images/assets/main-about/rai.jpg" class="img-responsive image-center">
                     	<p>
-                    		
+                    		SIDHARTH SINGH <br/> CEO | Founder
                     	</p>
                     </div>
                     <div class="col-sm-4 col-xs-12 text-center">
-                        <img src="../images/assets/main-about/kunal.jpeg" class="img-responsive image-center">
+                        <img src="../images/assets/main-about/kunal.jpg" class="img-responsive image-center">
                         <p>
-                            
+                            Kunal Arora <br/> CTO
                         </p>
                     </div>
                     <div class="col-sm-4 col-xs-12 text-center">
-                        <img src="../images/assets/main-about/rai.jpg" class="img-responsive image-center">
+                        <img src="../images/assets/main-about/rajat.jpg" class="img-responsive image-center">
                         <p>
-                            
+                           Rajat Khullar <br/> SALES & MARKETING HEAD
                         </p>
                     </div>
                 </div>
