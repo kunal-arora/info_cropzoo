@@ -76,15 +76,15 @@ $(function(){
 	});
 });
 
-$(document).ready(function () {
+// $(document).ready(function () {
 	
-	var height = $('.main-container').height();
+// 	var height = $('.main-container').height();
 
-	height = height + 1;
+// 	height = height + 1;
 
-	$('body').css("height", height);
+// 	$('body').css("height", height);
 
-});
+// });
 
 $('#toggle').click(function() {
     $(this).toggleClass('active');

@@ -64,5 +64,19 @@
     <![endif]-->
     <?php //include '../burger-menu.php'; ?>
     <!-- main container fluid -->
-    <div class="main-container">
+    <div id="js-main-container" class="main-container">
+
+    <script type="text/javascript">
+        function bodyHeight() {
+
+            var height = document.getElementById('js-main-container').offsetHeight;
+
+            var body = window.document.getElementsByTagName( 'body' )[0];
+            
+            body.setAttribute("style", "height:"+height+"px;");
+
+        }
+
+        window.onload = bodyHeight;
+    </script>
     
