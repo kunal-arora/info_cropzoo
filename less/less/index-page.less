@@ -8,6 +8,10 @@
 }
 .home-container {
     .left-side {
+        @media (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+        }
         display: flex;
         float: left;
         justify-content: center;
@@ -24,9 +28,16 @@
             font-size: 16px;
             position: relative;
             z-index: 99;
+            @media (max-width: 768px) {
+                padding: 200px 0 0;
+            }
         }
     }
     .right-side {
+        @media (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+        }
         display: flex;
         float: left;
         justify-content: center;
@@ -43,12 +54,18 @@
             font-size: 16px;
             position: relative;
             z-index: 99;
+            @media (max-width: 768px) {
+                padding: 100px 0 0;
+            }
         }
     }
     .btn {
         padding: 12px 40px;
         position: relative;
         z-index: 99;
+        @media (max-width: 768px) {
+            margin: 0px 0 100px;
+        }
     }
     .flex-center {
         top: 0;

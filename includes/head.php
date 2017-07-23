@@ -11,7 +11,9 @@
     
     <!-- scripts and other url based includes -->
     <?php
-      include 'methods/page-includes-head.php';
+        require 'Mobile_Detect.php';
+        $detect = new Mobile_Detect;
+        include 'methods/page-includes-head.php';
     ?>
     <!-- scripts and other url based includes -->
 
@@ -66,6 +68,15 @@
     <!-- main container fluid -->
     <div id="js-main-container" class="main-container">
 
+    <?php
+        if ( $detect->isMobile() ):
+    ?>
+
+    
+    <?php
+        else:
+    ?>
+
     <script type="text/javascript">
         function bodyHeight() {
 
@@ -79,4 +90,10 @@
 
         window.onload = bodyHeight;
     </script>
+
+
+    <?php
+        endif;
+    ?>
+
     

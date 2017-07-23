@@ -74,3 +74,21 @@
 	width: 625px;	
 	margin: 0 auto;
 }
+
+
+/*responsive*/
+.only-on-mobile-block {
+	display: none;
+}
+.only-on-desktop-block {
+	display: block;
+}
+
+@media (max-width: 768px) {
+	.only-on-mobile-block {
+		display: block !important;
+	}
+	.only-on-desktop-block {
+		display: none !important;
+	}
+}

@@ -29,6 +29,12 @@
     <!--
     <link rel="canonical" href="http://www.example.com/">
     -->
+
+    <?php
+        require 'includes/Mobile_Detect.php';
+        $detect = new Mobile_Detect;
+    ?>
+
     <?php  include 'includes/methods/pageData.php'; ?>
     <!-- Latest compiled and minified CSS bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -55,16 +61,12 @@
     <!-- main container fluid -->
     <div class="container-fluid no-padding">
     
-<style type="text/css">
-    html, body {
-        overflow-y: hidden;
-    }
-</style>
+
 <?php include 'burger-menu.php'; ?>
 <div class="home-container">
     <img src="images/cropzoo-flat-logo.svg" class="flat-logo-home">
-    <img src="images/assets/index/trac.svg" class="trac-image">
-    <div class="flex-center">
+    <img src="images/assets/index/trac.svg" class="trac-image only-on-desktop-block">
+    <div class="flex-center only-on-desktop-block">
         <h1>CropZoo</h1>
     </div>
     <div class="col-xs-12 col-sm-6 left-side">
@@ -98,17 +100,14 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <!-- jquery -->
 
-<script type="text/javascript" src="js/vendor/skrollr.min.js"></script>
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- Latest compiled and minified JavaScript -->
-
-<!-- scripts and other url based includes -->
 <?php
-  include 'methods/page-includes-footer.php';
+        if ( $detect->isMobile() ):
 ?>
-<!-- scripts and other url based includes -->
+ 
+<?php
+        else:
+?>
+<script type="text/javascript" src="../js/vendor/skrollr.min.js"></script>
 
 <script type="text/javascript">
 $(function(){
@@ -120,6 +119,23 @@ $(function(){
         }
     });
 });
+</script>
+
+<?php
+        endif;
+?>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+
+<!-- scripts and other url based includes -->
+<?php
+  //include 'methods/page-includes-footer.php';
+?>
+<!-- scripts and other url based includes -->
+
+<script type="text/javascript">
 $('#toggle').click(function() {
     $(this).toggleClass('active');
     $('#overlay').toggleClass('open');
