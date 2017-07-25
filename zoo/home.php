@@ -119,7 +119,10 @@
 
 
                 <div class="row our-scene">
-                    <div class="col-sm-4 col-xs-12 no-padding">
+                    <div class="col-sm-8 col-xs-12 only-on-mobile-block mb-30">
+                        <img src="../images/assets/zoo-index-page/our-scene.svg" class="" />
+                    </div>
+                    <div class="col-sm-4 col-xs-12 no-padding-desktop">
                         <h2>CropZoo Value Supply chain</h2>
                         <p>The producer and the consumer often get a poor deal and the middlemen control the market. This is what CropZoo is providing, removing all the middleman and creating a win-win situation for both the producers and the consumers.</p>
                         <a href="about.php" class="read-more-link">
@@ -128,7 +131,7 @@
                         </a>
                         
                     </div>
-                    <div class="col-sm-8 col-xs-12">
+                    <div class="col-sm-8 col-xs-12 only-on-desktop-block">
                         <img src="../images/assets/zoo-index-page/our-scene.svg" class="" />
                     </div>
                 </div>
@@ -148,8 +151,8 @@
                     <h1 class="section-headings">Services</h1>
                 </div>
             </div>
-            <div class="container">
-                <div class="col-xs-12 col-sm-12">
+            <div class="container no-padding-mobile">
+                <div class="col-xs-12 col-sm-12 no-padding">
                     <div class="sevices-container clearfix">
                         <div data-1765="box-shadow:0 2px 10px 0 rgba(0,0,0,0.0), 0 0 0px 0 rgba(0,0,0,0.0);" data-2380="box-shadow:0 2px 10px 0 rgba(0,0,0,0.1), 0 0 0px 0 rgba(0,0,0,0.08);" class="services-box clearfix">
                             <img src="../images/assets/zoo-index-page/ecomm.svg" class="ecom-icon">

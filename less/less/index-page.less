@@ -5,8 +5,13 @@
     left: 50px;
     max-width: 175px;
     z-index: 9;
+    @media (max-width: 768px) {
+        position: relative;
+        left: 15px;
+    }
 }
 .home-container {
+    background-color: #00C063;
     .left-side {
         @media (max-width: 768px) {
             width: 100%;
@@ -29,7 +34,7 @@
             position: relative;
             z-index: 99;
             @media (max-width: 768px) {
-                padding: 200px 0 0;
+                padding: 100px 0 0;
             }
         }
     }

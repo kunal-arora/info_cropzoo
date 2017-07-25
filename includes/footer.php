@@ -89,16 +89,6 @@ $(function(){
 <!-- scripts and other url based includes -->
 
 
-// $(document).ready(function () {
-    
-//  var height = $('.main-container').height();
-
-//  height = height + 1;
-
-//  $('body').css("height", height);
-
-// });
-
 <script type="text/javascript">
 
 $('#toggle').click(function() {

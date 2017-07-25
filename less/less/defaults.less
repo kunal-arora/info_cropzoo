@@ -1,6 +1,18 @@
 /* padding classes */
 .no-padding {
-	padding: 0 !important;;
+	padding: 0 !important;
+}
+.no-padding-desktop {
+	padding: 0;
+    @media screen and (max-width: 767px) {
+		padding-right: 15px;
+		padding-left: 15px;
+    }
+}
+.no-padding-mobile {
+    @media screen and (max-width: 767px) {
+    	padding: 0;
+    }
 }
 .pt-0 {
 	padding-top: 0 !important;
@@ -69,10 +81,16 @@
 }
 .width-700 {
 	width: 700px;
+	@media (max-width: 768px) {
+		width: 100%;
+	}
 }
 .width-625 {
 	width: 625px;	
 	margin: 0 auto;
+	@media (max-width: 768px) {
+		width: 100%;
+	}
 }
 
 

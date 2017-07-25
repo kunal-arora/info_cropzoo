@@ -28,10 +28,10 @@
             <div class="container">
                 
                 <div class="row divided-text-section">
-                    <div class="col-sm-4 col-xs-12 text-right">
+                    <div class="col-sm-4 col-xs-12 text-right no-padding-mobile">
                         <h1 class="section-headings">Our mission</h1>
                     </div>
-                    <div class="col-sm-6 col-xs-12 text-left">
+                    <div class="col-sm-6 col-xs-12 text-left no-padding-mobile">
                     	<p>
                     		The traditional street vending format of FnV, while still getting a major share in customers purchase scenario, has not undergone any change in its delivery procedure or upgrade to a more refined procedure of vending over the years. In line with this, we at CropZoo have innovatively ventured into bridging this huge gap between the farmers and the end consumers by using innovative & distinctive delivery procedure enhanced with advanced customer vending features.
                     	</p>
@@ -49,10 +49,10 @@
             <div class="container">
                 
                 <div class="row divided-text-section">
-                    <div class="col-sm-4 col-xs-12 text-right">
+                    <div class="col-sm-4 col-xs-12 text-right no-padding-mobile">
                         <h1 class="section-headings">Our vision</h1>
                     </div>
-                    <div class="col-sm-6 col-xs-12 text-left">
+                    <div class="col-sm-6 col-xs-12 text-left no-padding-mobile">
                     	<p>
                     		Our motto is to deliver fresh quality produce at the competitive prices using the value chain model and our customers can enjoy the convenience of picking and choosing various varieties of fruits & vegetables at their doorstep , with the added advantage of cheapest pricing backed by attractive schemes and digital bill for every purchase made.
                     	</p>
@@ -69,10 +69,10 @@
             <div class="container">
                 
                 <div class="row divided-text-section">
-                    <div class="col-sm-4 col-xs-12 text-right">
+                    <div class="col-sm-4 col-xs-12 text-right no-padding-mobile">
                         <h1 class="section-headings">What we do ?</h1>
                     </div>
-                    <div class="col-sm-6 col-xs-12 text-left">
+                    <div class="col-sm-6 col-xs-12 text-left no-padding-mobile">
                         <p>
                             India's diverse climate ensures availability of all varieties of fresh fruits & vegetables. It ranks second in fruits and vegetables production in the world, after China. Yet, 99 percent of fruits & vegetables are sold loose, on pushcarts, on footpaths or in mandis unhygienically.This is where our start-up venture CropZoo steps in. The model links farmers to consumers. So, the products are sourced from farmers, brought in trucks to our warehouse in Delhi, then weighed, cleaned and graded.Our warehouse will receive fresh fruits & vegetables everyday from the farms in Himachal Pradesh, Uttarakhand, Uttar Pradesh, Haryana, Rajasthan and Madhya Pradesh.We strive to eliminate stages where quality and value is lost and ensure that ultimately farmers get more percent of the consumer price and consumers get relief from uneven quality and wildly fluctuating prices.Since we are bringing the products to the consumers faster post harvest, the quality is ensured and by-passing the middlemen, the price is controlled wisely.
                         </p>
@@ -89,10 +89,10 @@
             <div class="container">
                 
                 <div class="row divided-text-section">
-                    <div class="col-sm-4 col-xs-12 text-right">
+                    <div class="col-sm-4 col-xs-12 text-right no-padding-mobile">
                         <h1 class="section-headings">Why us ?</h1>
                     </div>
-                    <div class="col-sm-6 col-xs-12 text-left">
+                    <div class="col-sm-6 col-xs-12 text-left no-padding-mobile">
                         <p class="sub-heading">
                             FRESHNESS & QUALITY     
                         </p>

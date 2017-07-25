@@ -1,7 +1,4 @@
 /* crop Index page styles */
-body.zoo-index {
-    height: 6000px;    
-}
 
 /* zoo Home page styles */
 .zoo-index-page-container {
@@ -63,7 +60,7 @@ body.zoo-index {
 			align-items: center;
 			background-image: url('../../images/assets/crop-index-page/hqdi-bg.png');
 			height: 260px;
-			background-size: contain;
+			background-size: cover;
 			background-repeat: repeat-x;
 			z-index: 9;
 			opacity: 1;
@@ -107,6 +104,9 @@ body.zoo-index {
 				max-width: 100%;				
 			}
 			.read-more-link {
+				@media (max-width: 768px) {
+					font-size: 14px;					
+				}
 				font-size: 18px;
 				margin-top: 20px;
 				display: -webkit-inline-box;
@@ -144,6 +144,10 @@ body.zoo-index {
 
 	.services-section {
 		background-color: @light-grey;
+		@media (max-width: 768px) {	
+			padding-right: 0;
+			padding-left: 0;
+		}
 		.section-headings {
 			margin-bottom: 30px;
 		}
@@ -151,11 +155,19 @@ body.zoo-index {
 			display: flex;
 			align-items: center;
 			flex-direction: row;
+			@media (max-width: 768px) {				
+				flex-direction: column;
+			}
 			justify-content: space-around;
 			.services-box {
 				height: 460px;
 			    // box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1), 0 0 0px 0 rgba(0,0,0,0.08);
 				width: 350px;
+				@media (max-width: 768px) {	
+					width: 90%;
+					box-shadow:0 2px 10px 0 rgba(0,0,0,0.1), 0 0 0px 0 rgba(0,0,0,0.08);
+					margin-bottom: 15px;
+				}
 				background-color: #fff;
 				display: flex;
 				justify-content: center;
