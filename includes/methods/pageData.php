@@ -30,6 +30,6 @@ $_pageData = json_encode(array(
 
 $page = json_decode($_pageData);
 
-$version = "1.0.2";
+$version = "1.0.3";
 
 ?>
