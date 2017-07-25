@@ -4,31 +4,25 @@ $_pageData = json_encode(array(
 
  	"home" => array(
         "title" => "Cropzoo - Farms to Fridges",
-        "description" => "xxxxxx",
+        "description" => "CropZoo is a food solutions & sustainable agriculture company. We have made a commitment to produce more, produce good, conserve more and improve farmers lives.",
         "head_includes" => "",
         "footer_includes" => "homepage-includes-footer"
  	),
         "about" => array(
         "title" => "Cropzoo - Farms to Fridges",
-        "description" => "xxxxxx",
+        "description" => "CropZoo is a food solutions & sustainable agriculture company. We have made a commitment to produce more, produce good, conserve more and improve farmers lives.",
         "head_includes" => "",
         "footer_includes" => ""
         ),
- 	"zoo" => array(
-        "title" => "Cropzoo - Farms to Fridges",
-        "description" => "zoo",
-        "head_includes" => "",
-        "footer_includes" => "homepage-includes-footer"
- 	),
         "ecommerce" => array(
         "title" => "Cropzoo - Farms to Fridges",
-        "description" => "zoo",
+        "description" => "CropZoo is a food solutions & sustainable agriculture company. We have made a commitment to produce more, produce good, conserve more and improve farmers lives.",
         "head_includes" => "",
         "footer_includes" => ""
         ),
         "retail" => array(
         "title" => "Cropzoo - Farms to Fridges",
-        "description" => "zoo",
+        "description" => "CropZoo is a food solutions & sustainable agriculture company. We have made a commitment to produce more, produce good, conserve more and improve farmers lives.",
         "head_includes" => "",
         "footer_includes" => ""
         )
@@ -36,6 +30,6 @@ $_pageData = json_encode(array(
 
 $page = json_decode($_pageData);
 
-$version = "1.0.1";
+$version = "1.0.2";
 
 ?>
