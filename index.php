@@ -72,7 +72,7 @@
 <div class="home-container">
     <img src="images/cropzoo-flat-logo.svg" class="flat-logo-home">
     <img src="images/assets/index/trac.svg" class="trac-image only-on-desktop-block">
-    <div class="flex-center only-on-desktop-block">
+    <div class="flex-center only-on-desktop-flex">
         <h1>CropZoo</h1>
     </div>
     <div class="col-xs-12 col-sm-6 left-side">
@@ -113,18 +113,18 @@
 <?php
         else:
 ?>
-<script type="text/javascript" src="../js/vendor/skrollr.min.js"></script>
+<!-- <script type="text/javascript" src="../js/vendor/skrollr.min.js"></script> -->
 
 <script type="text/javascript">
-$(function(){
-    skrollr.init({
-        forceHeight: false,
-        render: function(data) {
-            //Log the current scroll position.
-            console.log(data.curTop);
-        }
-    });
-});
+// $(function(){
+//     skrollr.init({
+//         forceHeight: false,
+//         render: function(data) {
+//             //Log the current scroll position.
+//             console.log(data.curTop);
+//         }
+//     });
+// });
 </script>
 
 <?php
