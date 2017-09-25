@@ -49,7 +49,7 @@
 
 <!-- jquery -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <!-- jquery -->
 <?php
         if ( $detect->isMobile() ):
@@ -58,7 +58,7 @@
 <?php
         else:
 ?>
-<script type="text/javascript" src="../js/vendor/skrollr.min.js"></script>
+<script type="text/javascript" src="js/vendor/skrollr.min.js"></script>
 
 <script type="text/javascript">
 
@@ -84,7 +84,7 @@ $(function(){
 
 <!-- scripts and other url based includes -->
 <?php
-  include 'methods/page-includes-footer.php';
+  include 'methods/page-includes/homepage-includes-footer.php';
 ?>
 <!-- scripts and other url based includes -->
 
