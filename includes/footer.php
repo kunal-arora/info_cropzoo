@@ -1,50 +1,41 @@
 <!-- Footer -->
-    <footer class="text-center footer-container">
-        <div class="footer-above">
-            <div class="container">
-                <!-- <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p><a href="http://startbootstrap.com"></a>.</p>
-                    </div>
-                </div> -->
-            </div>
+<div class="footer-wrapper">
+    <footer>
+        <nav class="footer-nav clearfix">
+            <ul class="nav-list list-1">
+                <li class="nav-item"><a href="/" title="Home">Home</a></li>
+                <li class="nav-item"><a href="/ecommerce" title="e-commerce">e-commerce</a></li>
+                <li class="nav-item"><a href="/retail" title="Retail stores">retail stores</a></li>
+                <li class="nav-item"><a href="/products" title="Products">Products</a></li>
+                <!-- <li class="nav-item"><a href="/team" title="Team FNV">Team FNV</a></li> -->
+            </ul>
+            <ul class="nav-list list-2">
+                <li class="nav-item"><a href="/about" title="About Us">About Us</a></li>
+                <li class="nav-item"><a href="/contact" title="Contact Us">Contact Us</a></li>
+                <!-- <li class="nav-item"><a href="http://shop.fnv.com" title="Shop">Shop</a></li> -->
+                <!-- <li class="nav-item"><a href="http://blog.fnv.com" title="Blog">Blog</a></li> -->
+            </ul>
+        </nav><!-- .footer-nav -->
+
+        <div class="follow">
+            <div class="title">Follow</div>
+            <ul class="social-list clearfix">
+                <li class="social-item"><a href="https://twitter.com/cropzoo" class="fa fa-twitter" target="_blank"></a></li>
+                <li class="social-item"><a href="https://www.facebook.com/cropzoo" class="fa fa-facebook" target="_blank"></a></li>
+                <li class="social-item"><a href="https://instagram.com/cropzoo" class="fa fa-instagram" target="_blank"></a></li>
+                <!-- <li class="social-item"><a href="http://blog.fnv.com" class="icon-tumblr" target="_blank"></a></li> -->
+                <!-- <li class="social-item"><a href="https://www.youtube.com/channel/UCb3XDd5F4Rc_mAFP3x13peA" class="icon-youtube" target="_blank"></a></li> -->
+            </ul>
+        </div><!-- .follow -->
+
+        <div class="logo icon icon-logo"></div>
+        <div class="terms clearfix">
+            <a class="terms-contact" href="mailto:support@cropzoo.com">Mail Us</a>
+            <a class="terms-legal" href="#" target="_blank">Privacy Policy</a>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; <?php echo date("Y"); ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+        <div class="copyright">© 2017 CROPZOO BY FRUTTA-E-VERDURA</div>
+    </footer><!-- footer -->
+</div>
 
 
 <!-- jquery -->
