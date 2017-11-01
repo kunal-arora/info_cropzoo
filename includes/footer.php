@@ -58,7 +58,7 @@ $(function(){
         forceHeight: false,
         render: function(data) {
             //Log the current scroll position.
-            console.log(data.curTop);
+            // console.log(data.curTop);
         }
     });
 });
