@@ -4,14 +4,14 @@
         <nav class="footer-nav clearfix">
             <ul class="nav-list list-1">
                 <li class="nav-item"><a href="/" title="Home">Home</a></li>
-                <li class="nav-item"><a href="/ecommerce" title="e-commerce">e-commerce</a></li>
-                <li class="nav-item"><a href="/retail" title="Retail stores">retail stores</a></li>
-                <li class="nav-item"><a href="/products" title="Products">Products</a></li>
-                <!-- <li class="nav-item"><a href="/team" title="Team FNV">Team FNV</a></li> -->
+                <li class="nav-item"><a href="/ecommerce.php" title="e-commerce">e-commerce</a></li>
+                <li class="nav-item"><a href="/retail.php" title="Retail stores">retail stores</a></li>
+                <li class="nav-item"><a href="/products.php" title="Products">Products</a></li>
+                <!-- <li class="nav-item"><a href="/team.php" title="Team FNV">Team FNV</a></li> -->
             </ul>
             <ul class="nav-list list-2">
-                <li class="nav-item"><a href="/about" title="About Us">About Us</a></li>
-                <li class="nav-item"><a href="/contact" title="Contact Us">Contact Us</a></li>
+                <li class="nav-item"><a href="/about.php" title="About Us">About Us</a></li>
+                <li class="nav-item"><a href="/contact.php" title="Contact Us">Contact Us</a></li>
                 <!-- <li class="nav-item"><a href="http://shop.fnv.com" title="Shop">Shop</a></li> -->
                 <!-- <li class="nav-item"><a href="http://blog.fnv.com" title="Blog">Blog</a></li> -->
             </ul>
