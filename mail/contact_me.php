@@ -42,10 +42,10 @@ $smtp = Mail::factory('smtp', array(
 $mail = $smtp->send($to, $_headers, $email_body);
 
 if (PEAR::isError($mail)) {
-    echo('<p>' . $mail->getMessage() . '</p>');
+   return echo('<p>' . $mail->getMessage() . '</p>');
 } else {
-    echo('<p>Message successfully sent!</p>');
+   return true;
 }
 
-return true;			
+// return true;			
 ?>
