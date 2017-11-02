@@ -3,6 +3,9 @@
 // Pear Mail Library
 require_once "pear_mail/Mail.php";
 
+require "../config.php";
+
+
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
@@ -38,18 +41,55 @@ $_headers = array(
 );
 
 
-$smtp = Mail::factory('smtp' );
+// $smtp = Mail::factory('smtp' );
 
 // var_dump($smtp);
 
-$mail = $smtp->send($to, $_headers, $email_body);
+// $mail = $smtp->send($to, $_headers, $email_body);
 
+// var_dump($mail);
 
-if (PEAR::isError($mail)) {
-   return echo('<p>' . $mail->getMessage() . '</p>');
-} else {
-   return true;
-}
+// var_dump($mail->getMessage());
+
+// if (PEAR::isError($mail)) {
+//    echo('<p>' . $mail->getMessage() . '</p>');
+// } else {
+//    echo "sent";
+// }
 
 // return true;			
+
+
+
+/* to database */
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+$sql = "INSERT INTO contact_form(name, email, phone, text) values ('$name', '$email_address', '$phone','$message')";
+
+if ($conn->query($sql) === TRUE) {
+    // echo "New record created successfully";
+    return true;
+} else {
+    // echo "Error: " . $sql . "<br>" . $conn->error;
+    return false;
+}
+
+$conn->close();
+ // Connection Closed
+
+
+
+
+
+
+
+
+
 ?>
