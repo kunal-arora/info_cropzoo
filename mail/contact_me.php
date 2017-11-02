@@ -40,13 +40,9 @@ $_headers = array(
 $smtp = Mail::factory('smtp', array(
         'host' => 'localhost',
         'port' => '25',
-        'auth' => false,
       ));
 
 $mail = $smtp->send($to, $_headers, $email_body);
-
-return echo $mail;
-exit;
 
 if (PEAR::isError($mail)) {
    return echo('<p>' . $mail->getMessage() . '</p>');

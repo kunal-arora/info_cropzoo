@@ -42,9 +42,9 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function(response) {
+                error: function(jqXHR, textStatus, errorThrown) {
                     console.log("response for error");
-                    console.log(response);
+                    console.log(textStatus, errorThrown);
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
