@@ -1,4 +1,8 @@
 <?php
+
+// Pear Mail Library
+require_once "pear_mail/Mail.php";
+
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
