@@ -37,12 +37,13 @@ $_headers = array(
     'Subject' => $email_subject
 );
 
-$smtp = Mail::factory('smtp', array(
-        'host' => 'localhost',
-        'port' => '25',
-      ));
+
+$smtp = Mail::factory('smtp' );
+
+// var_dump($smtp);
 
 $mail = $smtp->send($to, $_headers, $email_body);
+
 
 if (PEAR::isError($mail)) {
    return echo('<p>' . $mail->getMessage() . '</p>');
