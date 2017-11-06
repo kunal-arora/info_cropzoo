@@ -12,7 +12,7 @@
 
             <div class="text-center photo" style="background-image: url('images/banners/banner-1.jpg');">
                 <div class="banner-text-container">
-                    <div class="banner-text-container flex-start">
+                    <div class="banner-text-container-inner flex-start">
                         <h1 class="banner-text text-left">
                             Farms to <br/> Fridges
                         </h1>
@@ -22,7 +22,7 @@
 
             <div class="text-center photo" style="background-image: url('images/banners/banner-2.jpg');">
                 <div class="banner-text-container">
-                    <div class="banner-text-container flex-start">
+                    <div class="banner-text-container-inner flex-start">
                         <h1 class="banner-text text-left">
                             Quality you deserve <br/> Savings you expect
                         </h1>
@@ -32,7 +32,7 @@
 
             <div class="text-center photo" style="background-image: url('images/banners/banner-3.jpg');">
                 <div class="banner-text-container">
-                    <div class="banner-text-container flex-start">
+                    <div class="banner-text-container-inner flex-start">
                         <h1 class="banner-text text-left">
                             We Farm <br/> you eat
                         </h1>

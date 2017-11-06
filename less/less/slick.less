@@ -473,10 +473,15 @@
     top: 0;
     left: 0;
   }
-    @media (max-width: 768px) {
-        .container {
-            justify-content: center;
-        }
+    // @media (max-width: 768px) {
+    //     .container {
+    //         justify-content: center;
+    //     }
+    // }
+    .banner-text-container-inner {
+        padding: 0 30px;
+        z-index: 9;
+        justify-content: center;
     }
 }
 
@@ -487,7 +492,4 @@
     100% {
         transform: scale(1.1) rotate(0.01deg); // Rotate fixes shaking animation in some browsers. http://stackoverflow.com/questions/28992549/internet-explorer-and-css-transform-value-of-scale-on-keyframes
     }
-}
-.banner-text-container {
-    padding: 0 15px;
 }
