@@ -7,10 +7,9 @@ html, body {
     font-family: 'Roboto',sans-serif;
     font-size: 14px;
     // overflow-y: scroll;
-	overflow-x: hidden; 
-    @media screen and (max-width: 767px) {
-        overflow-y: initial;
-    }
+    @media screen and (min-width: 767px) {
+        overflow-x: hidden;
+    } 
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 100%;
@@ -21,10 +20,12 @@ body {
     line-height: 1;
 }
 #js-main-container {
-    overflow-y: hidden;
-    @media screen and (max-width: 767px) {
-        overflow-y: initial;
+    @media screen and (min-width: 767px) {
+        overflow-y: hidden;
     }
+/*     @media screen and (max-width: 767px) {
+    overflow-y: initial;
+} */
 }
 /* common styles */
 .section-headings {
