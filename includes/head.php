@@ -26,7 +26,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="theme-color" content="#00C063">
     
@@ -44,7 +44,7 @@
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-status-bar-style" content="Cropzoo">
     <meta name="apple-mobile-web-app-title" content="Cropzoo">
     <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
 
