@@ -30,6 +30,10 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="theme-color" content="#00C063">
     
+    <!-- social media meta  -->
+    <meta name="p:domain_verify" content="a0096b3611ca41b19d81f173553eaf85"/>
+    <!-- social media meta  -->
+
     <!-- scripts and other url based includes -->
     <?php
         require 'Mobile_Detect.php';
