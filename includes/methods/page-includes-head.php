@@ -6,7 +6,7 @@
 	$page = json_decode($_pageData);
 
 	foreach ($page as $key => $value) :
-		
+
 		if (strpos($base_url, $key) !== false) : 
 
 ?>			
@@ -24,6 +24,17 @@
 			// special js includes 
 
 			break;
+
+		else:
+
+			
+?>
+			<meta name="description" content="If you have come to buy/procure fruits and vegetables for your restaurant, hotel, banquet, base kitchen or oven retail, you have come to the right place!">
+		    <title>Cropzoo - Fruits and vegetables suppliers</title>
+
+
+<?php
+		    break;
 
 		endif;
 	
