@@ -15,19 +15,19 @@ $_pageData = json_encode(array(
         "footer_includes" => ""
         ),
         "/ecommerce" => array(
-        "title" => "Cropzoo - Farms to Fridges",
+        "title" => "Cropzoo | Our Services includes E-commerce Platform for Business",
         "description" => "CropZoo is a food solutions & sustainable agriculture company. We have made a commitment to produce more, produce good, conserve more and improve farmers lives.",
         "head_includes" => "",
         "footer_includes" => ""
         ),
         "/retail" => array(
-        "title" => "Cropzoo - Farms to Fridges Retail Stores",
-        "description" => "CropZoo is a food solutions & sustainable agriculture company. We have made a commitment to produce more, produce good, conserve more and improve farmers lives.",
+        "title" => "Cropzoo | Exclusive Retails For Serving You Fresh Fruits and Vegetables",
+        "description" => "Our motto is to deliver fresh quality produce at the competitive prices using the value chain model and our customers can enjoy the convenience of picking and choosing various varieties of fruits & vegetables From Stores.",
         "head_includes" => "",
         "footer_includes" => ""
         ),
         "/contact" => array(
-        "title" => "Cropzoo | Contact Us",
+        "title" => "Cropzoo | Contact Us For Any Queries",
         "description" => "CropZoo is a food solutions & sustainable agriculture company. We have made a commitment to produce more, produce good, conserve more and improve farmers lives.",
         "head_includes" => "",
         "footer_includes" => ""
