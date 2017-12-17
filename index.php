@@ -15,8 +15,7 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/styles.min.css" rel="stylesheet">
@@ -70,14 +69,97 @@
 	      </div>
 	    </section>
 
-	    <!-- Download Section -->
+	    <!-- Our products Section -->
 	    <section id="products" class="products-section content-section sections text-center">
 	      <div class="container">
 	        <div class="col-md-12">
 	          <h1 class="small-heading">PRODUCTS</h1>
-	            <h2 class="large-heading">What we offer</h2>
-	          <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+        	  <h2 class="large-heading">What we offer</h2>
+        	  <div class="row">
+	        	  <div class="col-md-3 col-xs-12">
+	        	  	<img src="img/homepage/icon1.svg" class="icons">
+	        	  	<p class="icon-text">INDIAN FRUITS</p>
+	        	  </div>
+	        	  <div class="col-md-3 col-xs-12">
+	        	  	<img src="img/homepage/icon2.svg" class="icons">        	  	
+	        	  	<p class="icon-text">INDIAN VEGETABLES</p>
+	        	  </div>
+	        	  <div class="col-md-3 col-xs-12">
+	        	  	<img src="img/homepage/icon3.svg" class="icons">        	  	
+	        	  	<p class="icon-text">EXOTIC FRUITS</p>
+	        	  </div>
+	        	  <div class="col-md-3 col-xs-12">
+	        	  	<img src="img/homepage/icon4.svg" class="icons">       	  	
+	        	  	<p class="icon-text">EXOTIC VEGETABLES</p>
+	        	  </div>
+        	  </div>
 	          <a href="" class="btn btn-default btn-lg">CONTACT US NOW !</a>
+	        </div>
+	      </div>
+	    </section>
+
+	     <!-- packages section Section -->
+	    <section id="products" class="packages-section content-section sections text-center">
+	      <div class="container">
+	        <div class="col-md-12">
+	          <h1 class="small-heading text-left">what we offer</h1>
+        	  <h2 class="large-heading text-left">Our packages</h2>
+        	  <div class="row">
+	        	  <div class="col-md-6 col-xs-12 flex-center">
+	        	  	<img src="img/homepage/packages.jpg" class="img-fluid left-section-image">
+	        	  </div>
+	        	  <div class="col-md-6 col-xs-12 text-left flex-center">
+	        	  	<div class="icon-cont">
+	        	  		<img src="img/homepage/applesicon.png" class="icons">        	  	
+	        	  		<h1 class="heading">Fixed rate</h1>
+	        	  		<p class="sub-text">Working with Monthly and half yearly rate lists</p>
+	        	  	</div>
+	        	  	<div class="icon-cont">
+	        	  		<img src="img/homepage/applesicon.png" class="icons">        	  	
+	        	  		<h1 class="heading">Variable rate</h1>
+	        	  		<p class="sub-text mb-0">Flat 15% commission on Daily Purchase</p>
+	        	  	</div>
+	        	  </div>
+        	  </div>
+	          <a href="" class="btn btn-default btn-lg">CONTACT US NOW !</a>
+	        </div>
+	      </div>
+	    </section>
+
+	    <!-- Our process Section -->
+	    <section id="products" class="process-section content-section sections text-center">
+	      <div class="container">
+	        <div class="col-md-12">
+        	  <h1 class="large-heading">Our Process</h1>
+        	  <p class="heading-text">
+        	  	The producer and the consumer often get a poor deal and the middlemen control the market. This is what CropZoo is providing, removing all the middleman and creating a win-win situation for both the producers and the consumers.
+        	  </p>
+        	  <div class="row">
+	        	  <div class="col-md-4 col-xs-12 text-left flex-center padding-left">
+	        	  	<p class="number">01</p>
+	        	  	<p class="number-text">PROCUREMENT</p>
+
+	        	  	<p class="number">02</p>
+	        	  	<p class="number-text">CLEANING</p>
+
+	        	  	<p class="number">03</p>
+	        	  	<p class="number-text mb-0">GRADING</p>
+	        	  </div>
+	        	  <div class="col-md-4 col-xs-12 flex-center">
+	        	  	<img src="img/homepage/pineapple.png" class="img-fluid">        	  	
+	        	  	<p class="icon-text"> <i class="fa fa-check-circle" aria-hidden="true"></i> ON TIME DELIVERY</p>
+	        	  </div>
+	        	  <div class="col-md-4 col-xs-12 text-right flex-center padding-right">
+	        	  	<p class="number">04</p>
+	        	  	<p class="number-text">SORTING</p>
+
+	        	  	<p class="number">05</p>
+	        	  	<p class="number-text">PACKING</p>
+
+	        	  	<p class="number">06</p>
+	        	  	<p class="number-text mb-0">DISPATCH</p>
+	        	  </div>
+        	  </div>
 	        </div>
 	      </div>
 	    </section>
