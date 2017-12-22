@@ -26,7 +26,7 @@
 
 
     <!-- Intro Header -->
-    <header class="masthead">
+<!--     <header class="masthead">
       <div class="intro-body">
         <div class="container">
           <div class="row">
@@ -41,7 +41,7 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
 
     <?php  include 'includes/header.php'; ?>
 
@@ -73,8 +73,8 @@
 	    <section id="products" class="products-section content-section sections text-center">
 	      <div class="container">
 	        <div class="col-md-12">
-	          <h1 class="small-heading">PRODUCTS</h1>
-        	  <h2 class="large-heading">What we offer</h2>
+	          <h1 class="small-heading color-white">PRODUCTS</h1>
+        	  <h2 class="large-heading color-white">What we offer</h2>
         	  <div class="row">
 	        	  <div class="col-md-3 col-xs-12">
 	        	  	<img src="img/homepage/icon1.svg" class="icons">
@@ -165,7 +165,7 @@
 	    </section>
 
 	    <!-- Contact Section -->
-	    <section id="contact" class="content-section text-center">
+	    <!-- <section id="contact" class="content-section text-center">
 	      <div class="container">
 	        <div class="row">
 	          <div class="col-lg-8 mx-auto">
@@ -196,31 +196,10 @@
 	          </div>
 	        </div>
 	      </div>
-	    </section>
+	    </section> -->
     </div>
 
-    <!-- Map Section -->
-    <div id="map"></div>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; Your Website 2017</p>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
-
-    <!-- Custom scripts for this template -->
-    <script src="js/script.js"></script>
+    <?php include 'includes/footer.php'; ?>
 
   </body>
 
