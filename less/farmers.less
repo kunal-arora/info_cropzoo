@@ -1,0 +1,48 @@
+.farmerspage-wrapper {
+	.sections {
+		.small-heading {
+			color: @SmallHeadingText;
+
+		}
+		.large-heading {
+			color: @LargeheadingText;
+		}
+		p {
+			color: @text-color-light-gray;
+		}
+		.btn-default {
+			margin-top: 20px;
+		}
+	}
+	.about-section {
+		p {
+			padding-bottom: 30px;
+			@media (max-width: 768px) {
+				padding-bottom: 0;
+			}
+		}	
+		@media (max-width: 768px) {
+			.img-fluid {
+				margin-bottom: 20px;
+			}
+			.large-heading {
+				margin-bottom: 20px;
+			}
+		}
+		@media (max-width: 768px) {
+			padding-top: 30px;
+			text-align: center !important;
+			padding-bottom: 50px;
+		}
+	}
+
+	.other-section {
+		img {
+			@media (max-width: 768px) {
+				width: 80%;
+			}
+		}
+	}
+
+	
+}

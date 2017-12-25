@@ -1,8 +1,36 @@
+.mt-50 {
+	margin-top: 50px;
+}
 .mt-30 {
 	margin-top: 30px;
 }
 .mb-0 {
 	margin-bottom: 0 !important;
+}
+.ms-0 {
+	margin-right: 0;
+	margin-left: 0;
+} 
+.only-mobile {
+	@media (min-width: 768px) {
+		display: none !important;
+	}
+}
+.only-desktop {
+	@media (max-width: 768px) {
+		display: none !important;
+	}
+}
+.desktop-left {
+	@media (min-width: 768px) {
+		text-align: left !important;
+	}
+	@media (max-width: 768px) {
+		text-align: center !important;		
+	}
+}
+.position-relative {
+	position: relative;
 }
 .flex-center {
 	display: flex;
@@ -12,4 +40,22 @@
 
 .color-white {
 	color: #fff !important;
+}
+
+.desktop-text-left {
+	@media (min-width: 768px) {
+		text-align: left !important;
+	}
+	@media (max-width: 768px) {
+		text-align: center !important;		
+	}
+}
+
+.desktop-text-right {
+	@media (min-width: 768px) {
+		text-align: right !important;
+	}
+	@media (max-width: 768px) {
+		text-align: center !important;		
+	}
 }

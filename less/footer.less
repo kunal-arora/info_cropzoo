@@ -1,5 +1,9 @@
 footer {
 	.contact-section {	
+		.text-danger {
+			color: #e2a9a9 !important;
+			margin-top: 8px;
+		}
 		ul {
 			list-style: none;
 			padding: 0;
@@ -67,6 +71,10 @@ footer {
 			letter-spacing: 1.6px;
 			margin-bottom: 25px;
 			line-height: 1;
+			@media (max-width: 768px) {
+				margin-bottom: 10px;
+				margin-top: 20px;
+			} 
 		}
 		.links {
 			margin-bottom: 15px;
@@ -141,6 +149,18 @@ footer {
 			font-weight: 600;
 			letter-spacing: 1.6px;
 			font-size: 12px;
+		}
+
+		.address_sec {
+			p {
+				line-height: 1.6;
+				font-size: 14px;
+			}
+			h2 {
+				font-size: 16px;
+				margin-top: 30px;
+				margin-bottom: 10px;
+			}
 		}
 
 	}

@@ -3,112 +3,88 @@
 
   <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Cropzoo - Fruits and vegetables suppliers</title>
+    <meta name="description" content="If you have come to buy/procure fruits and vegetables for your restaurant, hotel, banquet, base kitchen or oven retail, you have come to the right place!">
 
-    <title>Cropzoo | Farms to Fridges</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/styles.min.css" rel="stylesheet">
+    <?php include "includes/head.php"; ?>
 
   </head>
 
   <body id="page-top">
 
 
-    <!-- Intro Header -->
-<!--     <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Grayscale</h1>
-              <p class="intro-text">A free, responsive, one page Bootstrap theme.
-                <br>Created by Start Bootstrap.</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header> -->
-
-    <?php  include 'includes/header.php'; ?>
+    <?php  
+    	include "includes/headerData.php";
+    	$data = headerfunc("homepage","img/homepage/banners/banner1.jpg","img/homepage/banners/banner2.jpg","img/homepage/banners/banner3.jpg","cropzoo","Join Hands with the most Transparent </br> Model of Fruits and Vegetables Supply"); 
+    	include "includes/headerHtml.php"; 
+    ?>
 
     <!-- About Section -->
     <div class="hompage-wrapper">
-	    <section id="about" class="content-section text-left sections">
+	    <section id="about" class="content-section about-section text-left sections">
 	      <div class="container">
 	        <div class="row">
-	          <div class="col-md-8">
+	          <div class="col-md-7 col-12">
+		  		<img src="img/homepage/about_section_mobile.png" class="img-fluid only-mobile">
 	            <h1 class="small-heading">CROPZOO</h1>
 	            <h2 class="large-heading">What do we do ?</h2>
 	            <p>We can help you eat more fruits & vegetables!</p>
 	            <p>
-	                We all know fruits and vegetables add important nutrition to our diets. But how
-	                much should we eat? And how can we make this nutrition stuff easier, tastier
-	                and more enjoyable? To answer these questions, CropZoo offers simple ways
-	                to add more fruits & veggies to your day.
+	                Fruits and Vegetables Suppliers usually either Overcharge or Underperform. Change all that with Cropzoo. Get your supply rate to rate and according to your set benchmark quality. We cater to the daily requirements of Fruits and Vegetables for Restaurants, Base Kitchens, Hotels and Banquets. We also provide bulk deliveries for all kind of Food Processing Businesses.
 	            </p>
-	            <a href="" class="btn btn-default">CONTACT US NOW !</a>
+	            <a href="brochure.pdf" download="brochure.pdf"  class="btn btn-default">DOWNLOAD BROCHURE</a>
 	          </div>
-	          <div class="col-md-4">
-				<img src="img/homepage/about_section.png" class="img-fluid right-section-image">
-	          </div>
+	          <div class="col-md-5 col-12"></div>
 	        </div>
 	      </div>
+		  <img src="img/homepage/about_section.png" class="img-fluid right-section-image only-desktop">
 	    </section>
 
 	    <!-- Our products Section -->
-	    <section id="products" class="products-section content-section sections text-center">
+	    <section id="services" class="products-section content-section sections text-center">
 	      <div class="container">
-	        <div class="col-md-12">
-	          <h1 class="small-heading color-white">PRODUCTS</h1>
-        	  <h2 class="large-heading color-white">What we offer</h2>
-        	  <div class="row">
-	        	  <div class="col-md-3 col-xs-12">
-	        	  	<img src="img/homepage/icon1.svg" class="icons">
-	        	  	<p class="icon-text">INDIAN FRUITS</p>
+	      	<div class="row">
+		        <div class="col-md-12">
+		          <h1 class="small-heading">PRODUCTS</h1>
+	        	  <h2 class="large-heading color-white">What we offer</h2>
+	        	  <div class="row">
+		        	  <div class="col-md-3 col-6">
+		        	  	<img src="img/homepage/icon1.svg" class="icons">
+		        	  	<p class="icon-text">INDIAN FRUITS</p>
+		        	  </div>
+		        	  <div class="col-md-3 col-6">
+		        	  	<img src="img/homepage/icon2.svg" class="icons">        	  	
+		        	  	<p class="icon-text">INDIAN VEGETABLES</p>
+		        	  </div>
+		        	  <div class="col-md-3 col-6">
+		        	  	<img src="img/homepage/icon3.svg" class="icons">        	  	
+		        	  	<p class="icon-text">EXOTIC FRUITS</p>
+		        	  </div>
+		        	  <div class="col-md-3 col-6">
+		        	  	<img src="img/homepage/icon4.svg" class="icons">       	  	
+		        	  	<p class="icon-text">EXOTIC VEGETABLES</p>
+		        	  </div>
 	        	  </div>
-	        	  <div class="col-md-3 col-xs-12">
-	        	  	<img src="img/homepage/icon2.svg" class="icons">        	  	
-	        	  	<p class="icon-text">INDIAN VEGETABLES</p>
-	        	  </div>
-	        	  <div class="col-md-3 col-xs-12">
-	        	  	<img src="img/homepage/icon3.svg" class="icons">        	  	
-	        	  	<p class="icon-text">EXOTIC FRUITS</p>
-	        	  </div>
-	        	  <div class="col-md-3 col-xs-12">
-	        	  	<img src="img/homepage/icon4.svg" class="icons">       	  	
-	        	  	<p class="icon-text">EXOTIC VEGETABLES</p>
-	        	  </div>
-        	  </div>
-	          <a href="" class="btn btn-default btn-lg">CONTACT US NOW !</a>
+		          <a class="btn btn-default btn-lg js-scroll-trigger" href="#contact">CONTACT US NOW !</a>
+		        </div>
 	        </div>
 	      </div>
 	    </section>
 
 	     <!-- packages section Section -->
-	    <section id="products" class="packages-section content-section sections text-center">
+	    <section class="packages-section content-section sections align-content text-center">
 	      <div class="container">
-	        <div class="col-md-12">
-	          <h1 class="small-heading text-left">what we offer</h1>
-        	  <h2 class="large-heading text-left">Our packages</h2>
+	      	<div class="row">
+	        <div class="col-md-12 col-12">
+	          <h1 class="small-heading desktop-left">what we offer</h1>
+        	  <h2 class="large-heading desktop-left">Our packages</h2>
+    	  	</div>
+    	    </div>
         	  <div class="row">
-	        	  <div class="col-md-6 col-xs-12 flex-center">
+	        	  <div class="col-md-6 col-12 flex-center">
 	        	  	<img src="img/homepage/packages.jpg" class="img-fluid left-section-image">
 	        	  </div>
-	        	  <div class="col-md-6 col-xs-12 text-left flex-center">
+	        	  <div class="col-md-6 col-12 text-left flex-center">
 	        	  	<div class="icon-cont">
 	        	  		<img src="img/homepage/applesicon.png" class="icons">        	  	
 	        	  		<h1 class="heading">Fixed rate</h1>
@@ -121,56 +97,81 @@
 	        	  	</div>
 	        	  </div>
         	  </div>
-	          <a href="" class="btn btn-default btn-lg">CONTACT US NOW !</a>
+	          <a class="btn btn-default btn-lg js-scroll-trigger" href="#contact">CONTACT US NOW !</a>
 	        </div>
-	      </div>
 	    </section>
 
 	    <!-- Our process Section -->
-	    <section id="products" class="process-section content-section sections text-center">
-	      <div class="container">
-	        <div class="col-md-12">
-        	  <h1 class="large-heading">Our Process</h1>
-        	  <p class="heading-text">
-        	  	The producer and the consumer often get a poor deal and the middlemen control the market. This is what CropZoo is providing, removing all the middleman and creating a win-win situation for both the producers and the consumers.
-        	  </p>
-        	  <div class="row">
-	        	  <div class="col-md-4 col-xs-12 text-left flex-center padding-left">
-	        	  	<p class="number">01</p>
-	        	  	<p class="number-text">PROCUREMENT</p>
+		<section class="process-section content-section sections text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-12">
+						<h1 class="large-heading">Our Process</h1>
+						<p class="heading-text">
+						We procure items as per your demand. For Bulk orders going 1 Ton and up, we help source the item from the most feasible point of harvest. For smaller orders, we supply Fruits and Vegetables from Azadpur Mandi, the biggest Fruits and Vegetables market in Asia. We supply the kind of product as per your need. Our Process is to act as a team for our Client, catering end to end requirements.
+						</br>
+						<strong>CALL US TODAY AND LETS GET STARTED!</strong>
+						</p>
+					</div>
+				</div>
+        	  	
+	    	  		<div class="col-12 text-center only-mobile">
+	    	  			<img src="img/homepage/pineapple.png" class="img-fluid"> 
+	    	  		</div>
+        	  	<div class="row ms-0">
+					<div class="col-md-4 col-12 desktop-text-left flex-center padding-left">
+						<div class="row">
+							<div class="col-4 col-md-12">
+								<p class="number">01</p>
+								<p class="number-text">PROCUREMENT</p>
+							</div>
 
-	        	  	<p class="number">02</p>
-	        	  	<p class="number-text">CLEANING</p>
+							<div class="col-4 col-md-12">
+								<p class="number">02</p>
+								<p class="number-text">CLEANING</p>
+							</div>
+							<div class="col-4 col-md-12">
+								<p class="number">03</p>
+								<p class="number-text mb-0">GRADING</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-12 flex-center only-desktop">
+						<img src="img/homepage/pineapple.png" class="img-fluid">        	  	
+						<p class="icon-text"> <i class="fa fa-check-circle" aria-hidden="true"></i> ON TIME DELIVERY</p>
+					</div>
+					<div class="col-md-4 col-12 desktop-text-right flex-center padding-right">
+						<div class="row">
+							<div class="col-4 col-md-12">
+								<p class="number">04</p>
+								<p class="number-text">SORTING</p>
+							</div>
 
-	        	  	<p class="number">03</p>
-	        	  	<p class="number-text mb-0">GRADING</p>
-	        	  </div>
-	        	  <div class="col-md-4 col-xs-12 flex-center">
-	        	  	<img src="img/homepage/pineapple.png" class="img-fluid">        	  	
-	        	  	<p class="icon-text"> <i class="fa fa-check-circle" aria-hidden="true"></i> ON TIME DELIVERY</p>
-	        	  </div>
-	        	  <div class="col-md-4 col-xs-12 text-right flex-center padding-right">
-	        	  	<p class="number">04</p>
-	        	  	<p class="number-text">SORTING</p>
+							<div class="col-4 col-md-12">
+								<p class="number">05</p>
+								<p class="number-text">PACKING</p>
+							</div>
 
-	        	  	<p class="number">05</p>
-	        	  	<p class="number-text">PACKING</p>
-
-	        	  	<p class="number">06</p>
-	        	  	<p class="number-text mb-0">DISPATCH</p>
-	        	  </div>
-        	  </div>
-	        </div>
-	      </div>
+							<div class="col-4 col-md-12">
+						  	<p class="number">06</p>
+						  	<p class="number-text mb-0">DISPATCH</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 text-center only-mobile">
+					<p class="icon-text"> <i class="fa fa-check-circle" aria-hidden="true"></i> ON TIME DELIVERY</p>
+				</div>
+	        
 	    </section>
 
 	    <!-- Contact Section -->
 	    <!-- <section id="contact" class="content-section text-center">
-	      <div class="container">
+	      <div class="container col-12">
 	        <div class="row">
 	          <div class="col-lg-8 mx-auto">
 	            <h2>Contact Start Bootstrap</h2>
-	            <p>Feel free to leave us a comment on the
+	            <p>Feel free to leave us col-12 a comment on the
 	              <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
 	              on Start Bootstrap to give some feedback about this theme!</p>
 	            <ul class="list-inline banner-social-buttons">

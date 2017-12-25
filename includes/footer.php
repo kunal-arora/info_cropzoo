@@ -10,15 +10,34 @@
   		<section id="contact" class="contact-section content-section sections">
   			<div class="container">
   				<div class="row">
-	  				<div class="col-xs-12 col-sm-4 ">
-	  					<img src="img/white-logo.svg" class="logo">
+	  				<div class="col-xs-12 col-sm-4 address_sec">
+	  					<a href="index.php"><img src="img/white-logo.svg" class="logo"></a>
+
+                        <h2 class="">
+                            FRUTTA-E-VERDURA FOOD SOLUTIONS PRIVATE LIMITED
+                        </h2>
+                        <p>
+                            Regd. Office: 27-28, 2nd Floor, Double Storey, New Rajinder Nagar, New Delhi - 110060
+                        </p>
+                        <p>
+                            Office/Warehouse: D-23, Upper Ground Floor, Rajan Babu Road, Adarsh Nagar, New Delhi - 110033
+                        </p>
+                        <!-- <p>                            
+                            Tel: <a class="" href="tel:+919811755299">[Himanshu - Sales & Marketing Head] +91 9811755299</a> 
+                        </p>
+                        <p>
+                            E-mail: <a class="" href="mailto:support@cropzoo.com">support@cropzoo.com</a>
+                        </p>
+                        <p>                            
+                            CIN - U74999DL2017PTC323145
+                        </p> -->
+
 	  				</div>
 	  				<div class="col-xs-12 col-sm-3">
 	  					<p class="heading"> Contact</p>
 	  					<p class="links"><a href="mailto:support@cropzoo.com">support@cropzoo.com</a></p>
-	  					<p class="links"><a href="mailto:support@cropzoo.com">support@cropzoo.com</a></p>
 	  					<p class="links"><a href="tel:+919811755299">+91 9811755299</a></p>
-	  					<p class="links"><a href="tel:+919811755299">+91 9811755299</a></p>
+	  					<p class="links"><a href="tel:+918299442884">+91 8299442884</a></p>
 				        <div class="follow">
 							<ul class="social-list ">
 							    <li class="social-item"><a href="https://twitter.com/cropzoo" class="fa fa-twitter" target="_blank"></a></li>
@@ -75,7 +94,15 @@
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
+    <script src="vendor/jqBootstrapValidation.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/myscript.js"></script>
 
+    <script type="text/javascript">
+		$('.carousel').carousel({
+			interval: 10000
+		})
+    </script>
