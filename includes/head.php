@@ -37,7 +37,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/styles.min.css" rel="stylesheet">
+    <link href="css/styles.min.css?v=1.0" rel="stylesheet">
 
         <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
