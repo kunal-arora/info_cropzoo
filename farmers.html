@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>CropZoo | Farmers</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
+  </head>
+  <body>
+   <div class="container-fluid">
+   
+   <div class="row phonenv">
+   	<div class="col-xs-3 col-xs-offset-1 logophone"><img src="img/logo-white.svg"></div>
+   	<div class="col-xs-3 col-xs-offset-4 nvph"><img src="img/nv.svg"></div>
+   	
+   </div>
+   
+   <div class="row grn">
+   <ul id="nav1">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="http://cropzoo.com/#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="farmers.html">Farmers</a></li>
+				
+				
+			</ul>
+   	
+   </div>
+   
+		<div class="row farmbg" id="home">
+			<div class="container mar50 text-center nonphone">
+				<div class="col-md-1 logo">
+					<img src="img/logo-white.svg">
+				</div>
+				
+				<div class="col-md-6 text-right col-md-offset-5 mar40">
+					<div class="col-md-3 col-md-offset-3"><h4>+91 9811755299</h4></div>
+					<div class="col-md-1 text-center"><h4> |</h4> </div>
+					<div class="col-md-3"><h4>support@cropzoo.com</h4></div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="container mar70 text-center">
+				<h2 style="padding-bottom:25px;"><span>FARMERS</span><br>Providing support to <br>
+the leaders in the field.</h2>
+			
+			<a href="brochure.pdf" download="brochure.pdf" class="buttonmain">DOWNLOAD BROCHURE</a>&nbsp;&nbsp;&nbsp; <a href="#contact" class="buttonmain">CONTACT US</a>
+				
+			</div>
+
+
+
+		</div>
+		
+		
+		<div class="row nv nonphone"  id="sticker">
+			<ul id="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="http://cropzoo.com/#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="farmers.html">Farmers</a></li>
+				
+				
+			</ul>
+			
+			
+		</div>
+		
+		<section id="about">
+		<div class="container mar50">
+	
+		<div class="col-md-5 text-center img100 mar50"><img src="img/farm.svg"></div><br>
+			<div class="col-md-6 txtcphone col-xs-12 mar30">
+				<h1><span>FARMERS</span><br>Why us?</h1>
+				
+				<p class="mar10" style="padding-bottom:30px;">We provide logistic support and tech-advancements in the field of
+agriculture. we connect the farmer to the market and provide them
+with the best rates.</p>
+				
+				
+				
+			</div>
+		
+			
+		</div>
+		</section>
+		
+		
+		
+		
+		
+		<div class="row greybg mar90">
+			
+			<div class="container">
+			
+				<div class="col-md-4 text-center ic2">
+					<div class="col-md-12 img100"><img src="img/better-rates.svg"></div>
+					<div class="col-md-12"><h5>BETTER RATES</h5></div>
+				</div>
+			
+			<div class="col-md-4 text-center ic2">
+					<div class="col-md-12 img100"><img src="img/logistics.svg"></div>
+					<div class="col-md-12"><h5>LOGISTICS SUPPORT</h5></div>
+				</div>
+			
+			<div class="col-md-4 text-center ic2">
+					<div class="col-md-12 img100"><img src="img/export.svg"></div>
+					<div class="col-md-12"><h5>KNOWLEDGE & INPUT
+LINKAGE</h5></div>
+				</div>
+			
+			
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		
+		
+		<div class="row footer text-center" id="contact">
+			<div class="container">
+				<div class="col-md-4 img100">
+					<img src="img/logo-white.svg">
+					
+				</div>
+				
+				
+				<div class="col-md-3 mar50 text-left">
+					<h2>Contact</h2>
+					<p>info@cropzoo.com<br>support@cropzoo.com<br>+91 9811755299</p>
+				</div>
+				
+				<div class="col-md-4 mar50 text-left">
+					<h2>Write to us</h2>
+					<form>
+						<input type="text" name="name" placeholder="name" class="inp">
+						<input type="email" name="email" placeholder="email" class="inp">
+						<textarea class="inp" placeholder="message" style="resize: none;"></textarea>
+					<input type="submit" value="submit" class="sub">
+					</form>
+					
+				</div>
+				
+			</div>
+			
+			
+		</div>
+		
+		
+		
+   </div>
+   
+   
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+	  $(document).ready(function(){
+
+	/*
+	* sticky nav
+	*/
+
+	window.rahul = function(){	
+
+	var element = $('.nv');
+
+	var elementCont = $('.nv').offset().top; 
+            
+        $(window).scroll(function() { 
+
+			var edge = $(window).scrollTop();
+
+	        	if( elementCont <= edge ) {
+
+	        		element.css({ 'position' : 'fixed' });
+
+	        	}else {
+
+	        		element.css({'position' : 'relative'});
+	        	}
+        });
+    }
+
+    if( $('.nv').length > 0 ) {
+    	// calling the function
+    	rahul();
+
+	}else{
+		console.log(':p');
+	}
+
+	/*
+		stickynav end
+	*/
+
+});
+
+	  $(document).ready(function() {
+	$('#nav').onePageNav();
+});
+		  $(document).ready(function() {
+	$('#nav1').onePageNav();
+});
+	  </script>
+	  
+	  
+	  <script>
+	  /*
+ * jQuery One Page Nav Plugin
+ * http://github.com/davist11/jQuery-One-Page-Nav
+ *
+ * Copyright (c) 2010 Trevor Davis (http://trevordavis.net)
+ * Dual licensed under the MIT and GPL licenses.
+ * Uses the same license as jQuery, see:
+ * http://jquery.org/license
+ *
+ * @version 3.0.0
+ *
+ * Example usage:
+ * $('#nav').onePageNav({
+ *   currentClass: 'current',
+ *   changeHash: false,
+ *   scrollSpeed: 750
+ * });
+ */
+
+;(function($, window, document, undefined){
+
+	// our plugin constructor
+	var OnePageNav = function(elem, options){
+		this.elem = elem;
+		this.$elem = $(elem);
+		this.options = options;
+		this.metadata = this.$elem.data('plugin-options');
+		this.$win = $(window);
+		this.sections = {};
+		this.didScroll = false;
+		this.$doc = $(document);
+		this.docHeight = this.$doc.height();
+	};
+
+	// the plugin prototype
+	OnePageNav.prototype = {
+		defaults: {
+			navItems: 'a',
+			currentClass: 'current',
+			changeHash: false,
+			easing: 'swing',
+			filter: '',
+			scrollSpeed: 750,
+			scrollThreshold: 0.5,
+			begin: false,
+			end: false,
+			scrollChange: false
+		},
+
+		init: function() {
+			// Introduce defaults that can be extended either
+			// globally or using an object literal.
+			this.config = $.extend({}, this.defaults, this.options, this.metadata);
+
+			this.$nav = this.$elem.find(this.config.navItems);
+
+			//Filter any links out of the nav
+			if(this.config.filter !== '') {
+				this.$nav = this.$nav.filter(this.config.filter);
+			}
+
+			//Handle clicks on the nav
+			this.$nav.on('click.onePageNav', $.proxy(this.handleClick, this));
+
+			//Get the section positions
+			this.getPositions();
+
+			//Handle scroll changes
+			this.bindInterval();
+
+			//Update the positions on resize too
+			this.$win.on('resize.onePageNav', $.proxy(this.getPositions, this));
+
+			return this;
+		},
+
+		adjustNav: function(self, $parent) {
+			self.$elem.find('.' + self.config.currentClass).removeClass(self.config.currentClass);
+			$parent.addClass(self.config.currentClass);
+		},
+
+		bindInterval: function() {
+			var self = this;
+			var docHeight;
+
+			self.$win.on('scroll.onePageNav', function() {
+				self.didScroll = true;
+			});
+
+			self.t = setInterval(function() {
+				docHeight = self.$doc.height();
+
+				//If it was scrolled
+				if(self.didScroll) {
+					self.didScroll = false;
+					self.scrollChange();
+				}
+
+				//If the document height changes
+				if(docHeight !== self.docHeight) {
+					self.docHeight = docHeight;
+					self.getPositions();
+				}
+			}, 250);
+		},
+
+		getHash: function($link) {
+			return $link.attr('href').split('#')[1];
+		},
+
+		getPositions: function() {
+			var self = this;
+			var linkHref;
+			var topPos;
+			var $target;
+
+			self.$nav.each(function() {
+				linkHref = self.getHash($(this));
+				$target = $('#' + linkHref);
+
+				if($target.length) {
+					topPos = $target.offset().top;
+					self.sections[linkHref] = Math.round(topPos);
+				}
+			});
+		},
+
+		getSection: function(windowPos) {
+			var returnValue = null;
+			var windowHeight = Math.round(this.$win.height() * this.config.scrollThreshold);
+
+			for(var section in this.sections) {
+				if((this.sections[section] - windowHeight) < windowPos) {
+					returnValue = section;
+				}
+			}
+
+			return returnValue;
+		},
+
+		handleClick: function(e) {
+			var self = this;
+			var $link = $(e.currentTarget);
+			var $parent = $link.parent();
+			var newLoc = '#' + self.getHash($link);
+
+			if(!$parent.hasClass(self.config.currentClass)) {
+				//Start callback
+				if(self.config.begin) {
+					self.config.begin();
+				}
+
+				//Change the highlighted nav item
+				self.adjustNav(self, $parent);
+
+				//Removing the auto-adjust on scroll
+				self.unbindInterval();
+
+				//Scroll to the correct position
+				self.scrollTo(newLoc, function() {
+					//Do we need to change the hash?
+					if(self.config.changeHash) {
+						window.location.hash = newLoc;
+					}
+
+					//Add the auto-adjust on scroll back in
+					self.bindInterval();
+
+					//End callback
+					if(self.config.end) {
+						self.config.end();
+					}
+				});
+			}
+
+			e.preventDefault();
+		},
+
+		scrollChange: function() {
+			var windowTop = this.$win.scrollTop();
+			var position = this.getSection(windowTop);
+			var $parent;
+
+			//If the position is set
+			if(position !== null) {
+				$parent = this.$elem.find('a[href$="#' + position + '"]').parent();
+
+				//If it's not already the current section
+				if(!$parent.hasClass(this.config.currentClass)) {
+					//Change the highlighted nav item
+					this.adjustNav(this, $parent);
+
+					//If there is a scrollChange callback
+					if(this.config.scrollChange) {
+						this.config.scrollChange($parent);
+					}
+				}
+			}
+		},
+
+		scrollTo: function(target, callback) {
+			var offset = $(target).offset().top;
+
+			$('html, body').animate({
+				scrollTop: offset
+			}, this.config.scrollSpeed, this.config.easing, callback);
+		},
+
+		unbindInterval: function() {
+			clearInterval(this.t);
+			this.$win.unbind('scroll.onePageNav');
+		}
+	};
+
+	OnePageNav.defaults = OnePageNav.prototype.defaults;
+
+	$.fn.onePageNav = function(options) {
+		return this.each(function() {
+			new OnePageNav(this, options).init();
+		});
+	};
+
+})( jQuery, window , document );
+		  
+		$('.nvph').click(function(){
+			$('.grn').slideToggle();
+			
+		})  
+		  
+	  </script>
+	  
+	  
+	  
+<script>
+if ($('#back-to-top').length) {
+    var scrollTrigger = 100, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show');
+            } else {
+                $('#back-to-top').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+}
+
+</script>
+
+	  
+  </body>
+</html>
